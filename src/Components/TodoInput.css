@@ -1,0 +1,46 @@
+.todo-input{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 550px;
+    margin: 5rem auto;
+    padding: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.todo-input label{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.todo-input input{
+    padding: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.todo-input input:focus{
+    outline: none;
+}
+
+.todo-input button{
+    width: 130px;
+    padding: 0.6rem;
+    color: white;
+    background: rgb(165, 23, 78);
+    border: transparent;
+    font-size: 1rem;
+}
+/* 
+.todo-input button:hover{
+    border: 2px solid rgb(165, 23, 78);
+    background: transparent;
+    color: black;
+} */
+
+
+
