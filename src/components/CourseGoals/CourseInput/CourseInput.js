@@ -30,7 +30,7 @@ const CourseInput = props => {
     <form onSubmit={formSubmitHandler}>
       <div className={`form-control ${!isValid ? 'invalid':''}`}>
         <label>To Do</label>
-        <input type="text" onChange={goalInputChangeHandler} />
+        <input type="text" value={enteredValue} onChange={goalInputChangeHandler} />
       </div>
       <Button type="submit">Add Task</Button>
     </form>
