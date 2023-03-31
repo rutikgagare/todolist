@@ -16,7 +16,8 @@ const App = () => {
       headers:{
         'Content-Type':'application/json'
       }
-    })
+    });
+    fetchGoal();
   }
 
   async function fetchGoal(){
